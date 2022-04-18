@@ -1,0 +1,198 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    font-family:Helvetica;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  button, input {
+    all:unset;
+  }
+
+body {
+    background-color: rgb(240,242,245);
+}
+
+  a {
+      text-decoration: none;
+  }
+/*default sizes unset*/
+
+
+/*Everything starts from here*/
+.main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+/*General*/
+.profile-section {
+   display: flex;
+   padding-top: 50px;
+   gap:25px;
+}
+.main-title{
+   color: #1877F2;
+}
+.recent-logins-text{
+   
+    font-family:  Helvetica;
+    margin: 5px 10px 10px 10px;
+    font-size: 28px;
+
+}
+/*first img styles*/
+.login-img {
+    height: 170px;
+    width: 230px;
+   
+}
+.active-acc-name{
+    margin: auto ;
+    color: #4b4f56;
+}
+
+.login-wrapper { 
+    height: 220px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 5px -1px;
+    padding-bottom: 15px;
+    
+}
+
+
+.login-wrapper:hover{
+      box-shadow: 0px 0px 30px -15px ;
+  }
+
+/*second img starts here*/
+.add-account-icon{
+    height: 180px;
+    width: 140px;
+}
+.new-acc-txt{
+    margin: auto 0;
+    font-size: Verdana;
+    color: rgb(58, 109, 172);
+}
+
+   .second-wrapper {
+    height: 220px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 5px -1px;
+    padding-bottom: 15px;
+  }
+  .second-wrapper:hover{
+    box-shadow: 0px 0px 30px -15px ;
+  }
+
+    
+/*second section styles starts from here*/
+.input-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    height: 330px;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px;
+    padding: 15px 0px;
+  
+}
+ 
+.input-section-wrapper:hover{
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.input {
+    height: 50px;
+    width: 310px;
+    border-radius: 5px;
+    background-color: #e8f0ef;
+    box-shadow: 0px 0px 2px -0.45px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.input:hover {
+    box-shadow: lightblue;
+}
+
+.login-button {
+    width: 330px;
+    height: 50px;
+    background-color: #1877F2;
+    text-align: center;
+    border-radius: 5px;
+    color: white ;
+}
+.forgotten-password{
+    color: #18A4F7;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom:0.15px solid #DADDE1;
+    width: 330px;
+    padding-bottom: 25px;
+    
+}
+
+.forgotten-password:hover {
+text-decoration: underline;
+}
+.forgotten-password:active {
+    color: #18A4F7 ;
+}
+.new-account-button {
+    width: 200px;
+    height: 40px;
+    background-color: #42B72A;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.last-section:hover {
+   text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(240,242,245) ;
+    }
+    .main{
+        flex-wrap: wrap;
+        align-items: space-between ;
+    }
+    .input-section-wrapper{
+        margin-top: 30px;
+    }
+    h1, h2 {
+         text-align: center;
+    }
+    .click-your-picture-text{
+        text-align: center;
+    }
+    .last-section-1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+} 
