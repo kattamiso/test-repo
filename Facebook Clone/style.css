@@ -19,7 +19,6 @@ body {
   }
 /*default sizes unset*/
 
-
 /*Everything starts from here*/
 .main {
     height: 100vh;
@@ -27,9 +26,6 @@ body {
     flex-wrap: wrap;
   
 }
-
-
-
 
 /*General*/
 .profile-section {
